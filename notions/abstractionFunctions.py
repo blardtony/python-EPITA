@@ -4,7 +4,9 @@
 #les deux fonctions suivantes d'élévation au carré d'un nombre doivent être indiscernables. Chacune prend un argument numérique et produit le carré de ce nombre comme valeur.
 
 def square(x):
-    return mul(x, x)
+    return x*x
 
-def square(x):
-    return mul(x, x-1) + x
+def square2(x):
+    return (x *(x-1)) + x
+
+print(square(2), square2(2))
